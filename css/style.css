@@ -1,0 +1,35 @@
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #121212;
+    box-sizing: border-box;
+}
+
+nav > a{
+    text-decoration: none;
+    border: 2px solid #474747;
+    box-shadow: 0px 0px 5px #fff;
+    padding: 2px 5px;
+    margin: 3px 5px;
+    border-radius: 6px;
+}
+
+a#nf {
+    border: none;
+}
+
+.glass{
+    border: 1px solid #fff;
+    padding: 5px;
+    height: fit-content;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 1px 10px 0 #fff;
+}
+
+
+
